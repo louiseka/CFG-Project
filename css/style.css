@@ -20,10 +20,17 @@ nav {
     white-space: nowrap;
 }
 
+.nav-logo {
+    width:200px;
+ }
+
 @media screen and (max-width:1000px) {
     .nav-container a {
         font-size: 14px;
         padding: 20px 8px;
+    }
+    .nav-logo {
+        width:100px;
     }
 }
 
@@ -31,9 +38,7 @@ nav {
     text-decoration: underline;
 }
 
-.nav-logo {
-   width:200px;
-}
+
 
 .nav-links {
     display: flex;
