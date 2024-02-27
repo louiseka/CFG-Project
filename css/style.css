@@ -24,14 +24,22 @@ nav {
     width:200px;
  }
 
+ .logo-footer {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width:1000px) {
     .nav-container a {
         font-size: 14px;
         padding: 20px 8px;
     }
-    .nav-logo,
-    .logo-footer {
+    .nav-logo {
         width:100px;
+    }
+    .logo-footer {
+        width:250px;
     }
 }
 
@@ -225,12 +233,6 @@ footer {
 
 .vertical-line {
     border-left: 3px solid #C8553D;
-}
-
-.logo-footer {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .social-footer {
