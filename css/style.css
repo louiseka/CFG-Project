@@ -29,7 +29,8 @@ nav {
         font-size: 14px;
         padding: 20px 8px;
     }
-    .nav-logo {
+    .nav-logo,
+    .logo-footer {
         width:100px;
     }
 }
