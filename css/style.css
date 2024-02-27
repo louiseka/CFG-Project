@@ -128,14 +128,13 @@ h2 {
     margin-right: auto;
 }
 
-
-
 .recipe-page-method {
     border: 1px solid #3D405B;
     border-radius: 3px;
     padding: 40px 40px 60px;
     margin: 20px auto;
     background-color: #fbfaf9;
+    max-width: 800px;
 }
 
 .recipe-page {
@@ -143,6 +142,20 @@ h2 {
     margin-right: auto;
     padding: 40px 40px 60px;
 }
+
+@media screen and (max-width:1000px) {
+.recipe-page-method,
+.recipe-page {
+margin: 0px;
+}
+.recipe-page{
+padding: 0px;
+}
+.recipe-page-method {
+    border: none;
+}
+}
+
 
 button,
 .submit-button {
